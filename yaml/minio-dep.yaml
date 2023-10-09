@@ -1,6 +1,6 @@
 ---
-kind: PersistentVolumeClaim
 apiVersion: v1
+kind: PersistentVolumeClaim
 metadata:
   name: brbaker-minio-pvc
 spec:
@@ -8,8 +8,9 @@ spec:
     - ReadWriteOnce
   resources:
     requests:
-      storage: 20Gi
-  volumeMode: Filesystem
+      storage: 2Gi  # Request 2GB of storage
+  storageClassName: gp2
+#  volumeMode: Filesystem     # Swap this for storageClassName if not running on AWS.
 ---
 kind: Secret
 apiVersion: v1
