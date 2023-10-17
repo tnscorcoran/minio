@@ -25,10 +25,13 @@ It is important to make sure you do not include secrets in your code. The follow
 <img src="./images/get-secrets.png" alt="drawing" width="600"/>
 
 The following code snippet shows how to connect to the S3 storage:
+
 <img src="./images/connect-to-s3.png" alt="drawing" width="600"/>
 
-The following code snippet shoes how to retrieve a file from the S3 storage.
+The following code snippet shoes how to retrieve a file from the S3 storage:
+
 <img src="./images/load-from-s3.png" alt="drawing" width="600"/>
 
 The following code snippet shoes how to upload a file to the S3 storage.
+
 <img src="./images/save-to-s3.png" alt="drawing" width="600"/>
