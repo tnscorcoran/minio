@@ -1,3 +1,4 @@
 .minio.sys/
 data/
 test-file.txt
+minio.code-workspace
