@@ -8,7 +8,7 @@ spec:
     - ReadWriteOnce
   resources:
     requests:
-      storage: 40Gi  # Request 2GB of storage
+      storage: 100Gi  # Request 10GB of storage
   storageClassName: gp2-csi
 #  volumeMode: Filesystem     # Swap this for storageClassName if not running on AWS.
 ---
