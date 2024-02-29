@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: brbaker-minio-pvc
+  name: tomc-minio-pvc
 spec:
   accessModes:
     - ReadWriteOnce
@@ -40,7 +40,7 @@ spec:
       volumes:
         - name: data
           persistentVolumeClaim:
-            claimName: brbaker-minio-pvc
+            claimName: tomc-minio-pvc
       containers:
         - resources:
             limits:
